@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">语雀</string>
+    <string name="slogan">The Next Generation of Cloud-based Knowledge Base</string>
+    <string name="description">Personal notetaking, knowledge creation, group collaboration, and knowledge management</string>
+    <string name="slogan_Chinese">新一代云端知识库</string>
+    <string name="description_Chiness">个人笔记与知识创作，团队协同与知识沉淀</string>
+</resources>
