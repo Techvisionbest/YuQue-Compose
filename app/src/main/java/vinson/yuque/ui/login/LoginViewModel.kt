@@ -3,6 +3,10 @@ package vinson.yuque.ui.login
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import vinson.yuque.data.RetrofitClient
 
 class LoginViewModel: ViewModel() {
 
@@ -21,6 +25,8 @@ class LoginViewModel: ViewModel() {
     }
 
     fun tryLogin(){
-
+        viewModelScope.launch {
+            val info = RetrofitClient.service.fetchUserInfo()
+        }
     }
 }

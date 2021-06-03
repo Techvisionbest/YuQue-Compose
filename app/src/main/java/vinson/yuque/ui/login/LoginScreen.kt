@@ -149,9 +149,3 @@ fun LoginContent(
         }
     }
 }
-
-@Composable
-@Preview(name = "Login")
-fun DefaultPreview(){
-    LoginScreen()
-}
